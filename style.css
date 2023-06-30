@@ -1,0 +1,57 @@
+
+/*------------------basic setup---------------*/
+body{
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #bdc3c7;
+}
+
+p{
+    margin: 0;
+    padding: 20px;
+}
+
+/*------------------utility---------------------*/
+.margin-top{
+    margin-top: 40px;
+}
+
+
+
+/*--------------------main-part-----------------*/
+.container{
+    background-color: black;
+    color: white;
+    height: 500px;
+    width: 600px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 10px 20px black;
+}
+ 
+.textBox{
+    font-size: 300%;
+}
+
+.timeBox{
+    font-size: 500%;
+}
+
+.dateBox{
+    font-size: 300%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+button{
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-size: 30%;
+}
